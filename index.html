@@ -14,57 +14,86 @@
     <title>About Me</title>
   </head>
   <body>
-    <div class="container-fluid bg-light">
-      <div class="container">
-        <nav class="navbar navbar-light bg-light">
-          <span class="navbar-text">
-            <div
-              class="bg-info text-white text-center d-inline-block float-sm-left  font-weight-bold"
-              style="width: 300px;"
-            >
-              <h1>Piotr Babinski</h1>
-            </div>
-          </span>
-          <ul class="nav justify-content-centre float-right">
-            <li class="nav-item">
-              <a class="nav-link active" href="/index.html">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="jumbotron border border-dark">
-        <h3 class="display-6">About Me</h3>
-        <hr class="my-2" />
-        <p class="lead">
-          <img
-            src="/piotr.png"
-            class="img-thumbnail col-md-2"
-            alt="img-responsive"
-          />
-        </p>
-
-        <div class="d-flex flex-row">
-          <div class="p-2">
-            <p>
-              My name is Piotr and I am an enthusiastic, self-motivated,
-              reliable, responsible and hardworking student in the process of
-              completing my coding & programming bootcamp at UWA. I have a deep
-              passion for promoting health and wellbeing of individuals. My
-              problem solving skills, resilience and quick thinking would help
-              me to handle challenging situations.
-            </p>
+    <header id="header">
+          <div
+            class="navbar d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom box-shadow"
+          >
+          <div class="container">
+            <h5 class="navbar-name col-xl-2 col-lg-3 col-md-3 col-sm-4 text-center my-0 mr-md-auto font-weight-bold">
+              Piotr Babinski
+            </h5>
+            <nav class="navbar-item col-xl-6 col-lg-6 col-md-6 col-sm-8 text-center my-2 my-md-0 mr-md-3">
+              <a class="navbar-link p-3 text-dark" href="index.html"
+                >About Me</a
+              >
+              <a class="navbar-link p-3 text-dark" href="portfolio.html"
+                >Portfolio</a
+              >
+              <a class="navbar-link p-3 text-dark" href="contact.html"
+                >Contact</a
+              >
+            </nav>
           </div>
+          </div>
+        </div>
+    </header>
+
+    <div class="intro">
+      <div class="container">
+        <div class="jumbotron shadow mt-5">
+          <h1 class="display-4 col-sm-12 text-left">About Me</h1>
+          <hr class="my-4" />
+          <img src="/piotr.png" class="img-responsive float-left col-lg-2 col-md-4 col-sm-6" alt="Responsive image">
+          <p class="lead col-sm-12">
+            
+My name is Piotr and I am an enthusiastic, self-motivated, reliable, responsible and hardworking student in the process of completing my coding & programming bootcamp at UWA. I have a deep passion for promoting health and wellbeing of individuals. My problem solving skills, resilience and quick thinking would help me to handle challenging situations.
+          </p>
         </div>
       </div>
     </div>
+
+    <footer id="footer">
+        <div class="container-fluid">
+          <div class="container">
+      <p class="lead text-center">
+        Copyright 2019 &copy 
+      </p>
+      </div>
+      </div> 
+      </footer>
+
   </body>
 </html>
+<!-- 
+
+
+
+
+
+
+
+
+<div class="container">
+    <nav class="page-header">
+      <span class="header-text">
+        <div
+          class="bg-info text-white d-inline-block text-left text-center font-weight-bold"
+          style="width: 300px;"
+        >
+          <h1>Piotr Babinski</h1>
+        </div>
+      </span>
+      <ul class="nav float-right col-sm-4">
+        <li class="nav-item">
+          <a class="nav-link active" href="/index.html">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div> -->

@@ -1,0 +1,75 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("/background.jpg");
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+#header {
+  width: 100%;
+  background: white;
+}
+
+.jumbotron {
+  background: white;
+  border: gray 1px solid;
+}
+
+#header h5 {
+  background: #4aaaa5;
+  padding: 10px;
+  margin: 0;
+  height: 50;
+}
+.navbar-name {
+  color: white;
+  padding: 15px;
+  background: #4aaaa5;
+}
+
+.nav {
+  color: white;
+}
+
+.container-fluid {
+  background: gray;
+  margin-bottom: 0;
+  padding: 20px;
+  border-top: 8px solid #4aaaa5;
+}
+
+footer {
+  bottom: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.images {
+  border: solid 2px gray;
+  height: auto;
+  width: 300px;
+  padding: 0;
+  margin: 30px;
+  position: relative;
+}
+
+.desc {
+  background: #4aaaa5;
+  position: absolute;
+  height: auto;
+  bottom: 15px;
+}
