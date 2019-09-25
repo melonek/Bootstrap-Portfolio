@@ -22,6 +22,14 @@ body {
   border: gray 1px solid;
 }
 
+.jumbotron > h1 {
+  color: #4aaaa5;
+}
+
+#exampleInputEmail3 {
+  height: 100px;
+}
+
 #header h5 {
   background: #4aaaa5;
   padding: 10px;
