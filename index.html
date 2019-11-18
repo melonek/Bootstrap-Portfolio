@@ -10,6 +10,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>About Me</title>
   </head>
@@ -51,6 +52,37 @@ My name is Piotr and I am an enthusiastic, self-motivated, reliable, responsible
         </div>
       </div>
     </div>
+    <div class="container">
+      <div id="infoZdjecia" class="d-flex justify-content-center">
+        <a href="https://github.com/melonek"
+          ><img
+            class="contact img-thumbnail"
+            src="./github.png"
+            alt="github"
+        /></a>
+        <a href="https://www.linkedin.com/in/piotr-babinski-233b64192/"
+          ><img
+            class="contact img-thumbnail"
+            src="./LinkedIn.png"
+            alt="LinkedIn"
+        /></a>
+          
+          <a href="mailto:meloniusz@hotmail.com"><img
+            class="contact img-thumbnail"
+            src="./email.png"
+            alt="email"
+        /></a>
+
+        <img id="telefon"
+          class="contact img-thumbnail"
+          src="./mobile.png"
+          alt="mobile_number"
+      /></a>
+
+      
+
+      </div>
+    </div>
 
     <footer id="footer">
         <div class="container-fluid">
@@ -62,5 +94,10 @@ My name is Piotr and I am an enthusiastic, self-motivated, reliable, responsible
       </div> 
       </footer>
 
+      <script>
+$("#telefon").on("click", ()=> {
+alert("My number: 0 401 028 199")
+});
+      </script>
   </body>
 </html>
